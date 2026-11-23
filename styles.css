@@ -1,0 +1,84 @@
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(ellipse at 50% 12%,#2b231f 0,#11100f 43%,#090909 100%);color:#fff;font-family:Arial,Helvetica,sans-serif}.page{width:min(100%,760px);margin:auto;padding:20px 32px 52px;background:linear-gradient(115deg,transparent 0 4%,rgba(239,180,92,.12) 4.2%,transparent 4.5% 92%,rgba(239,180,92,.12) 92.2%,transparent 92.5%),radial-gradient(ellipse at 50% 60%,#251d19,#100f0f 68%);min-height:100vh;box-shadow:0 0 70px #0009}button,input,select{font:inherit}button{cursor:pointer}.header{height:92px;display:flex;align-items:flex-start;justify-content:space-between}.logo{width:145px;height:92px;object-fit:cover;object-position:center}.badge{display:flex;align-items:center;gap:10px;margin-top:4px;padding:9px 18px;border:1px solid #e9ab4e;border-radius:15px;background:linear-gradient(120deg,#2a211b,#131211);font-size:17px;line-height:1.2;box-shadow:0 0 13px #efb45c22}.badge-icon{font-size:38px;color:#ffc264;line-height:1}.intro{text-align:center;margin:0 auto 18px}.intro h1{font:700 clamp(32px,5.2vw,52px)/.91 Georgia,'Times New Roman',serif;margin:0;letter-spacing:-1.3px}.intro em,.lead em{color:#f5b750;font-style:normal}.intro p{font-size:clamp(16px,2.5vw,22px);margin:10px 0 0}.benefits{display:grid;grid-template-columns:repeat(3,1fr);margin:20px 0 16px}.benefits>div{display:flex;align-items:center;justify-content:center;gap:12px;min-height:56px;font-size:17px;line-height:1.1}.benefits>div+div{border-left:1px solid #eeb865}.check{display:grid;place-items:center;flex:none;width:29px;height:29px;border:2px solid #f4b54d;border-radius:7px;color:#f4b54d;font-size:23px}.price{display:grid;grid-template-columns:60% 40%;align-items:center;padding:12px 25px;margin:0 10px 14px;border:2px solid #f5ba62;border-radius:24px;background:linear-gradient(120deg,#30251d,#171413);box-shadow:0 0 17px #ffad4e55}.price>div:first-child{text-align:center}.price span{font-size:21px}.price strong{display:block;color:#ffc064;font:700 clamp(29px,4.6vw,48px)/1 Georgia,serif;white-space:nowrap}.finance{border-left:1px solid #e4ac59;display:flex;align-items:center;justify-content:center;gap:15px;line-height:1.12}.finance .house{color:#f4b84f;font-size:53px;line-height:.8}.carousel-frame{position:relative;height:270px;overflow:hidden;border-radius:25px;border:1px solid #e5a447}.carousel-frame img{width:100%;height:100%;object-fit:cover;display:block}.arrow{position:absolute;top:50%;transform:translateY(-50%);width:48px;height:48px;border:1px solid #ffe2b0;border-radius:50%;background:#1e1711cc;color:#fff;font-size:40px;line-height:30px}.prev{left:12px}.next{right:12px}.dots{height:26px;display:flex;align-items:center;justify-content:center;gap:9px}.dots button{border:0;border-radius:99px;background:#aaa;width:10px;height:10px;padding:0}.dots button.active{width:28px;background:linear-gradient(#ffdd9d,#f7ae48)}.features{display:grid;grid-template-columns:repeat(4,1fr);margin:0 0 18px}.features>div{position:relative;min-height:82px;text-align:center;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;font-size:17px;line-height:1.1}.features>div+div:before{content:"";position:absolute;left:0;top:18px;bottom:9px;width:1px;background:#e6ad5b}.feature-icon{font-size:36px;line-height:1;color:#f5b84f}.location{display:grid;grid-template-columns:54px 1fr 30px;align-items:center;gap:9px;text-decoration:none;color:white;border:1px solid #f0b34d;border-radius:19px;padding:10px 20px;background:linear-gradient(120deg,#39291e,#171412);margin:0 11px 15px}.location strong{font-size:21px;display:block}.location small{font-size:16px;line-height:1.15;display:block}.pin,.loc-arrow{color:#ffbf52;font-size:43px;text-align:center}.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:0 7px 19px}.card{position:relative;border:1px solid #eeb44e;border-radius:18px;padding:0;overflow:hidden;height:128px;color:#fff;background:#2d251e}.card img{width:100%;height:100%;object-fit:cover;display:block}.card:after{content:"";position:absolute;inset:45% 0 0;background:linear-gradient(transparent,#080808d9)}.card>span{position:absolute;bottom:11px;left:0;right:0;text-align:center;z-index:1;font-size:16px}.plan-placeholder{height:100%;display:flex;flex-direction:column;align-items:center;justify-content:center;background:linear-gradient(135deg,#544337,#1d1a19);color:#f5c171}.plan-placeholder span{font:48px Georgia,serif;opacity:.55}.plan-placeholder small{font-size:12px}.lead{border:1px solid #f1bd69;border-radius:25px;padding:12px 34px 16px;background:linear-gradient(150deg,#28211d,#101010 65%);box-shadow:inset 0 0 25px #d89b3720}.lead h2{font:700 clamp(27px,3.7vw,34px)/1.05 Georgia,serif;text-align:center;margin:0 0 6px}.lead>p{text-align:center;font-size:17px;margin:0 0 14px}.field{height:44px;display:flex;align-items:center;gap:12px;border:1px solid #e5d2af;border-radius:9px;margin-bottom:10px;padding:0 14px;background:#181615;color:#fff}.field-icon{font-size:24px;line-height:1;min-width:25px}.field input,.field select{width:100%;min-width:0;border:0;outline:0;background:transparent;color:white;font-size:15px}.field input::placeholder{color:white;opacity:1}.field select{appearance:none;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='18' height='18' viewBox='0 0 18 18'%3E%3Cpath d='m3 6 6 6 6-6' fill='none' stroke='white' stroke-width='2'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right center;padding-right:22px}.field select option{background:#1b1816}.selects{display:grid;grid-template-columns:1fr 1fr;gap:16px}.form-status{min-height:0;margin:0!important;text-align:left!important;font-size:13px!important;color:#ffd18a}.form-status:not(:empty){margin:0 0 9px!important}.submit{width:100%;min-height:55px;border:0;border-radius:11px;background:linear-gradient(110deg,#ffda91,#ffb54f);color:#0b0b0b;font-size:18px;font-weight:700;display:flex;align-items:center;justify-content:space-around;gap:10px;padding:8px 18px}.submit:disabled{opacity:.7}.privacy{display:flex;align-items:center;justify-content:center;gap:12px;margin:13px auto 0;max-width:470px;font-size:13px;line-height:1.15}.privacy span:first-child{font-size:28px;color:#f1b64e}.lightbox{border:1px solid #edb758;border-radius:18px;background:#141211;color:white;max-width:min(92vw,1000px);padding:42px 22px 18px;box-shadow:0 20px 100px #000}.lightbox::backdrop{background:#000c}.lightbox img{display:block;max-width:100%;max-height:72vh;object-fit:contain;margin:auto}.lightbox p{text-align:center;margin:12px 0 0}.lightbox button{border:0;background:#211b17;color:#fff;border-radius:50%;width:40px;height:40px;font-size:30px}.lightbox .close{position:absolute;right:8px;top:6px}.light-prev,.light-next{position:absolute;top:50%}.light-prev{left:3px}.light-next{right:3px}@media(max-width:620px){.page{padding:14px 14px 28px}.header{height:75px}.logo{width:104px;height:69px}.badge{font-size:12px;padding:7px 9px;border-radius:12px}.badge-icon{font-size:26px}.intro h1{font-size:clamp(28px,7.1vw,42px)}.intro p{font-size:14px}.benefits{margin:17px 0 14px}.benefits>div{font-size:10px;gap:5px}.check{width:20px;height:20px;font-size:15px;border-radius:5px}.price{margin:0 0 12px;padding:10px 7px;border-radius:19px}.price span{font-size:14px}.price strong{font-size:clamp(23px,6vw,34px)}.finance{gap:3px}.finance .house{font-size:29px}.carousel-frame{height:42vw;min-height:190px;border-radius:19px}.arrow{width:35px;height:35px;font-size:30px;line-height:20px}.features>div{font-size:11px;min-height:75px}.feature-icon{font-size:28px}.location{margin:0 0 12px;grid-template-columns:38px 1fr 18px;padding:8px 9px;gap:3px}.location strong{font-size:15px}.location small{font-size:11px}.pin,.loc-arrow{font-size:30px}.cards{gap:6px;margin:0 0 13px}.card{height:85px;border-radius:13px}.card>span{font-size:11px;bottom:7px}.plan-placeholder span{font-size:31px}.plan-placeholder small{font-size:9px}.lead{padding:14px 12px}.lead h2{font-size:24px}.lead>p{font-size:12px}.field{height:42px}.field input,.field select{font-size:12px}.selects{gap:7px}.selects .field{padding:0 5px;gap:3px}.selects .field-icon{font-size:17px;min-width:17px}.submit{font-size:12px;min-height:51px}.privacy{font-size:11px}}
+
+/* Refinamento tipográfico e iconografia */
+body{font-family:"Avenir Next",Avenir,"Helvetica Neue",Arial,sans-serif;font-weight:400;letter-spacing:.005em;-webkit-font-smoothing:antialiased}
+.intro h1,.lead h2,.price strong{font-family:Didot,"Baskerville", "Times New Roman",serif;font-weight:600}
+.intro h1{letter-spacing:-.018em;line-height:.98}
+.lead h2{letter-spacing:-.015em}
+.price strong{letter-spacing:.005em}
+.header{justify-content:flex-start}
+.icon-defs{position:absolute;width:0;height:0;overflow:hidden}
+.feature-icon,.pin{display:block;fill:none;stroke:#f4b854;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;flex:none}
+.feature-icon{width:40px;height:40px;margin-bottom:3px}
+.pin{width:44px;height:44px}
+.dots{gap:7px;flex-wrap:wrap;height:auto;min-height:30px;padding:6px 0}
+.dots button{flex:none;width:8px;height:8px}
+.dots button.active{width:24px}
+@media(max-width:620px){.feature-icon{width:28px;height:28px}.pin{width:30px;height:30px}.intro h1{line-height:.98}}
+
+.finance-icon{width:53px;height:53px;flex:none;fill:none;stroke:#f4b854;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}@media(max-width:620px){.finance-icon{width:31px;height:31px}}
+.finance{gap:24px;padding-left:18px}
+@media(max-width:620px){.finance{gap:9px;padding-left:7px}}
+/* O preto da imagem da marca se funde ao fundo, preservando a arte branca original. */
+.logo{mix-blend-mode:screen}
+/* Equilíbrio entre preço, ícone e texto do financiamento. */
+.price{grid-template-columns:minmax(0,55%) minmax(0,45%);padding-inline:20px}
+.finance{min-width:0;justify-content:flex-start;gap:14px;padding-left:18px}
+.finance>span:last-child{font-size:18px;line-height:1.16;min-width:0}
+.finance-icon{width:44px;height:44px}
+@media(max-width:620px){
+ .price{grid-template-columns:minmax(0,55%) minmax(0,45%);padding-inline:8px}
+ .price strong{font-size:clamp(19px,5.6vw,30px)}
+ .finance{gap:6px;padding-left:7px}
+ .finance-icon{width:25px;height:25px}
+ .finance>span:last-child{font-size:clamp(10px,2.7vw,13px);line-height:1.17}
+}
+
+.features .feature-icon{width:43px;height:43px;fill:#f4b854;stroke:none;margin-bottom:5px}
+@media(max-width:620px){.features .feature-icon{width:31px;height:31px;margin-bottom:4px}}
+
+.feature-illustration{display:grid;place-items:center;width:48px;height:48px;line-height:1;font-family:"Apple Color Emoji","Segoe UI Emoji",sans-serif;font-size:33px;filter:drop-shadow(0 2px 4px #0008);margin-bottom:4px}
+@media(max-width:620px){.feature-illustration{width:34px;height:34px;font-size:25px;margin-bottom:3px}}
+
+.location{grid-template-columns:54px minmax(0,1fr)}
+@media(max-width:620px){.location{grid-template-columns:38px minmax(0,1fr)}}
+
+.footer-notice{margin:22px auto 0;text-align:center;color:#bdb6ae;font-size:12px;line-height:1.4;padding:0 12px}
+/* Acabamento monocromático dos símbolos ilustrados. */
+.feature-illustration{width:52px;height:52px;margin-bottom:5px;border:1px solid rgba(239,180,92,.42);border-radius:50%;background:radial-gradient(circle at 35% 28%,#463324 0,#211a17 56%,#100f0e 100%);box-shadow:inset 0 1px 1px #f5c37a33,0 5px 14px #0008;font-size:29px;filter:none}
+.feature-illustration>span{filter:grayscale(1) sepia(1) saturate(2.4) brightness(1.1);display:block}
+@media(max-width:620px){.feature-illustration{width:39px;height:39px;font-size:22px;margin-bottom:4px}}
+/* Ícones leves, com cor suavizada e sem medalhão. */
+.feature-illustration{width:48px;height:48px;border:0;border-radius:0;background:none;box-shadow:none;font-size:31px;filter:drop-shadow(0 2px 3px #0007)}
+.feature-illustration>span{filter:grayscale(.38) saturate(.58) brightness(1.08)}
+@media(max-width:620px){.feature-illustration{width:35px;height:35px;font-size:25px}}
+/* Mantém o medalhão discreto e suaviza apenas o desenho interno. */
+.feature-illustration{width:52px;height:52px;border:1px solid rgba(239,180,92,.35);border-radius:50%;background:radial-gradient(circle at 35% 30%,#332a24,#181615 72%);box-shadow:inset 0 1px 0 #f5d49a1f,0 3px 10px #0005;filter:none;font-size:27px}
+.feature-illustration>span{filter:grayscale(.58) saturate(.45) brightness(1.13);opacity:.85}
+@media(max-width:620px){.feature-illustration{width:39px;height:39px;font-size:20px}}
+
+/* Ícones consistentes e opção de visita no formulário. */
+.field-icon,.privacy svg,.visit-choice svg{width:23px;height:23px;flex:none;fill:none;stroke:#f5c477;stroke-width:1.65;stroke-linecap:round;stroke-linejoin:round}
+.field-icon{min-width:23px}
+.field:focus-within{border-color:#f7c77c;box-shadow:0 0 0 2px #f1ba6229}
+.visit-choice{display:flex;align-items:center;gap:11px;margin:2px 0 13px;color:#f4eee6;font-size:15px;line-height:1.3;cursor:pointer}
+.visit-choice input{appearance:none;width:19px;height:19px;flex:none;border:1px solid #e5d2af;border-radius:4px;background:#171514;margin:0;cursor:pointer}
+.visit-choice input:checked{background:#efb45c;border-color:#efb45c;box-shadow:inset 0 0 0 4px #171514}
+.visit-choice svg{width:22px;height:22px}
+.privacy svg{width:24px;height:24px}
+@media(max-width:620px){.field-icon{width:19px;height:19px;min-width:19px}.selects .field-icon{width:18px;height:18px;min-width:18px}.visit-choice{font-size:12px;gap:7px}.visit-choice svg{width:19px;height:19px}}
+
+.visit-choice svg{width:24px;height:24px;stroke-width:1.5}
+@media(max-width:620px){.visit-choice svg{width:21px;height:21px}}
+
+.submit{justify-content:center;text-align:center}
+
+/* CTA: tipografia original e brilho sutil, também visível no toque. */
+.submit{position:relative;overflow:hidden;isolation:isolate;animation:cta-glow 3.4s ease-in-out infinite;transition:transform .2s ease,box-shadow .2s ease}
+.submit>span{position:relative;z-index:1;font-size:inherit;font-weight:inherit;line-height:1.2}
+.submit::before{content:"";position:absolute;z-index:0;inset:0 auto 0 -45%;width:32%;transform:skewX(-24deg);background:linear-gradient(90deg,transparent,#fff8,transparent);animation:cta-sheen 2.4s ease-in-out infinite;pointer-events:none}
+.submit:hover,.submit:focus-visible{transform:translateY(-2px);box-shadow:0 8px 24px #efb45c66}
+.submit:active{transform:translateY(0) scale(.99)}
+@keyframes cta-glow{0%,100%{box-shadow:0 0 0 0 #f8bd5c30}50%{box-shadow:0 0 0 5px #f8bd5c20,0 0 22px #f8bd5c44}}
+@keyframes cta-sheen{0%,28%{left:-45%}66%,100%{left:120%}}
+@media(prefers-reduced-motion:reduce){.submit,.submit::before{animation:none}.submit{transition:none}}
